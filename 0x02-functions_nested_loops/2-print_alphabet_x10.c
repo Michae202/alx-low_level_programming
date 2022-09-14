@@ -1,43 +1,36 @@
-#include "holberton.h"
-
-
+#include "main.h"
 
 /**
 
- * print_alphabet_x10 - func
+*print_alphabet_x10 - print_alphabet_x10 block
 
- *
+*Description: print alphabet in lowercase
 
- * Return - 0
+*followed by new line
 
- */
+*Return: 0
+
+*/
 
 void print_alphabet_x10(void)
 
 {
 
-int b = 0;
+char c;
 
-while (b < 10)
+int i = 0;
 
-{
-
-char a = 'a';
-
-while (a <= 'z')
+while (i <= 9)
 
 {
 
-_putchar(a);
+for (c = 'a'; c <= 'z'; c++)
 
-a++;
-
-}
+_putchar(c);
 
 _putchar('\n');
 
-b++;
+i++;
 
 }
 
-}
