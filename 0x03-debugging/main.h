@@ -1,4 +1,3 @@
-
 #ifndef MAIN_H
 
 #define MAIN_H
@@ -20,40 +19,4 @@ int convert_day(int, int);
 
 
 #endif /* MAIN_H */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
